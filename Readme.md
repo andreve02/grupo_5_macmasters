@@ -26,9 +26,10 @@ Nuestro equipo en MacMasters está compuesto por apasionados amantes de la tecno
 
 **Aida Lorenzo - Directora de Operaciones**: 
 
-**Eduardo Lee - Especialista en Productos Apple**: .
+**Eduardo Lee - Especialista en Productos Apple**: 
 
 **Madeline Rodriguez - Marketing y Comunicaciones**: 
+
 **Anibal Acosta - Servicio al Cliente**: 
 
 **Melia Samms - Especialista en Accesorios**: 
