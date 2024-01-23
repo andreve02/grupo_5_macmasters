@@ -24,6 +24,7 @@ Nuestro equipo en MacMasters está compuesto por apasionados amantes de la tecno
 
 **Manuel León - Fundador y CEO**: 
 Soy un estudiante de ingeniería de software y un apasionado de la tecnología. He sido un usuario de Apple durante más de 5 años y he visto de primera mano cómo Apple ha cambiado la forma en que interactuamos con la tecnología. Mi objetivo es proporcionar a nuestros clientes una experiencia de compra única y conveniente, donde puedan encontrar todos los productos y accesorios Apple que deseen en un solo lugar.
+
 **Andres Vega - Project Manager**:
 Joven desarrollador con altas habilidades de liderazgo y organización, licenciado en ingenieria Civil, Master en administracion de empresas y gestion logistica, conocimiento de software como Rhinocero, AutoCad, MaxSurft y adquiriendo conocimiento en maquetación de pagina web con capacidad de comunicarse de manera eficiente y eficaz. Tengo 3 años utilizando producto Apple desde que me atrapo su sistema operativo, la innovaciones que elaboran en tecnologia de soporte, en su rapida absorcion en el mercado. Es por eso que como Porject Manager, busco llegar a nuevos clientes con el objetivo de brindarle la oportunidad de invertir en tan innovadora marca.
 
