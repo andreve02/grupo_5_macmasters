@@ -28,6 +28,9 @@ Soy un estudiante de ingeniería de software y un apasionado de la tecnología. 
 **Andres Vega - Project Manager**:
 Joven desarrollador con altas habilidades de liderazgo y organización, licenciado en ingenieria Civil, Master en administracion de empresas y gestion logistica, conocimiento de software como Rhinocero, AutoCad, MaxSurft y adquiriendo conocimiento en maquetación de pagina web con capacidad de comunicarse de manera eficiente y eficaz. Tengo 3 años utilizando producto Apple desde que me atrapo su sistema operativo, la innovaciones que elaboran en tecnologia de soporte, en su rapida absorcion en el mercado. Es por eso que como Porject Manager, busco llegar a nuevos clientes con el objetivo de brindarle la oportunidad de invertir en tan innovadora marca.
 
+**Eduardo Lee - Especialista en Productos Apple**:
+Con una amplia experiencia en el ecosistema de Apple, Eduardo es el especialista en productos de MacMasters.
+
 ## Política de Devoluciones
 Disponemos de un plazo para devoluciones de a partir de la fecha en que la paquetería entregó tu pedido en el domicilio indicado al realizar la compra. Debes notificar acerca de la devolución antes de que se cumpla la fecha tope de la garantía, el motivo del mismo. La devolución se llevará a través de correo electronico:
 
