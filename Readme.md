@@ -34,8 +34,27 @@ Disponemos de un plazo para devoluciones de a partir de la fecha en que la paque
 -Solicitar la devolución dentro del plazo de devolución por correo electrónico. Especificando el motivo de la devolución.
 
 ## Referencias:
-- [Jony Cell](https://www.jonycell.com/)
-- [PanaFoto](https://www.panafoto.com/catalogsearch/result/?q=audiofoto%20catalogo%20de%20componentes&page=50)
-- [Mas Movil](https://www.masmovilpanama.com/residencial/paquetes-internet?gbraid=0AAAAAC6reMaMzVI6xiilAeKPy4Jy81kjW&gclid=CjwKCAjwv-2pBhB-EiwAtsQZFGdl5FX4LakBrZOB5IC9_9C013nmX-yQYCV_T4XBjEu-l2r33SMQQRoCjkcQAvD_BwE)
+### Lista de 5 páginas que venden productos de Apple como inspiración para un e-commerce:
+
+1. **Apple Online Store - Apple (ES)**
+   - **Motivo para inspirarse**: Tienda oficial con experiencia de usuario refinada, opciones de financiación, promociones exclusivas y sistema de trade-in para dispositivos antiguos. Presentación impecable de productos.
+   - **Fuente**: [Apple Online Store](https://www.apple.com/es/shop)
+
+2. **Mac Center Apple Premium Partner (Perú)**
+   - **Motivo para inspirarse**: Enfoque en financiamiento flexible y entregas a nivel nacional. Atención al cliente y soporte técnico destacados.
+   - **Fuente**: [Mac Center Perú](https://www.mac-center.com.pe)
+
+3. **Maxim Store (Argentina)**
+   - **Motivo para inspirarse**: Apple Premium Reseller con amplia gama de productos Apple. Enfoque en experiencia del cliente, claridad en términos y condiciones y facilidad de compra.
+   - **Fuente**: [Maxim Store](https://www.maximstore.com)
+
+4. **Distribuidores oficiales y autorizados por Apple**
+   - **Motivo para inspirarse**: Incluye tiendas como Fnac o Apple Shop dentro de grandes superficies, autorizados por Apple y mantienen altos estándares de calidad y servicio al cliente.
+   - **Fuente**: [La Manzana Mordida](https://www.lamanzanamordida.net)
+
+5. **Tiendas en Estados Unidos (Best Buy, Amazon USA, Target, Walmart)**
+   - **Motivo para inspirarse**: Ofrecen una amplia variedad de productos Apple, ofertas competitivas y programas de lealtad. Buen manejo de la diversidad de productos, promociones y logística.
+   - **Fuente**: [MisterShopUSA](https://www.mistershopusa.com)
+
 
 **En MacMasters, estamos comprometidos a ser tu destino número uno para todos tus productos y accesorios Apple. ¡Esperamos poder servirte pronto!**
