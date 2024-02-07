@@ -59,6 +59,10 @@ Disponemos de un plazo para devoluciones de a partir de la fecha en que la paque
 5. **Tiendas en Estados Unidos (Best Buy, Amazon USA, Target, Walmart)**
    - **Motivo para inspirarse**: Ofrecen una amplia variedad de productos Apple, ofertas competitivas y programas de lealtad. Buen manejo de la diversidad de productos, promociones y logística.
    - **Fuente**: [MisterShopUSA](https://www.mistershopusa.com)
+  
+
+     ### Enlace al Tablero de trabajo -> [tablero](https://trello.com/b/6pTbLsNl/e-comerce)
+     
 
 
 **En MacMasters, estamos comprometidos a ser tu destino número uno para todos tus productos y accesorios Apple. ¡Esperamos poder servirte pronto!**
