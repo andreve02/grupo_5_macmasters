@@ -11,7 +11,7 @@ Siendo un e-commerce que se centra en productos de Apple, la estética la se inc
 | Negro Carbón | ![#333333 ](https://via.placeholder.com/10/333333?text=+) #333333  |
 | Gris Aluminio | ![#a1a1a1](https://via.placeholder.com/10/a1a1a1?text=+) #a1a1a1 |
 | Azul Cobalto (Acento) | ![#0071e3](https://via.placeholder.com/10/0071e3?text=+) #0071e3 |
-| Plata Metalizado | ![#c0c0c0](https://via.placeholder.com/10/c0c0c0?text=+) #c0c0c0 |
+| Plata Metalizado | ![#c0c0c0](https://via.placeholder.com/10/c0c0c0?text=+) #c0c0c0 |[tablero](https://trello.com/b/6pTbLsNl/e-comerce)
 
 
 
