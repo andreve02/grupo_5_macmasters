@@ -6,7 +6,7 @@
 /*encabezado de la pagina*/
 header div.encabezado{
     background-color: gray;
-    padding: 50px;
+    padding: 10px;
     display: block;
     flex-direction: column-reverse;
  
@@ -94,7 +94,7 @@ header div.carritoCompras img{
 .inicio{
     width: 100%;
     text-align: left;
-    padding: 2%;
+    padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -207,7 +207,13 @@ section article a.bannerOferta img{
     height: 100px;
     
 }
-
+.pieDePagina{
+    background-color: white;
+    padding: 10px;
+    display: block;
+    flex-direction: column-reverse;
+    
+}
 
 
 
