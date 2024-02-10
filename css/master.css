@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 /*encabezado de la pagina*/
-header div.encabezado{
+.encabezado{
     background-color: gray;
     padding: 10px;
     display: block;
-    flex-direction: column-reverse;
+    justify-content: space-around;
  
 }
 
-
+/*listado de menu*/
 header nav select.menu {
    
     background-color: #0044AA;
@@ -24,6 +24,13 @@ header nav select.menu {
     padding: 10px;
     width: 40px;
     text-align: center;
+}
+
+header .logo img{
+    width: 130px;
+    height: 50px;
+    padding: 5px;
+    
 }
 /* la barra de navegación */
 header .form .input{
@@ -41,78 +48,116 @@ header .form .submit{
     color: #666;
     width: 5%;
 }
-div.logo img{
-    width: 130px;
-    height: 50px;
-    padding: 5px;
-    
-}
-
-header div.encabezado p{
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
- }
 
 header div.carritoCompras img{
-    width: 4%;
-    height: 4%;
-    border-color: #0044AA;
+    width: 10%;
+    height: 40%;
+    justify-content: right;
     
 }
+
+
 /*cuerpo de la pagina*/
 .body{
     font-family: 'Roboto', sans-serif;
     background-color: gray;
+    background-size: cover;
  }
+ /*parrafo de pagos volunatio y sin tarjeta de credito*/
+ .textoVoluntario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+ }
+/*Inicio de sesion y crear cuenta*/
+header nav{
+    font-size: 100px;
+    margin-top: 25px;
+   
+}
+
+header ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.inicioSesion {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: white;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:brown;
+}
+
+.misCompras{
+    background-color: #FFF;
+    text-align:center;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+/*titulo de la pagina*/
  .titulo{
     color:goldenrod;
-    background-color: #FFF;
+    background-image: url('../img/fondo-tecnologia-negro-degradado_23-2149209060.avif');
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: inherit;
     font-size: 60px;
-    margin-top: 20px;
-    
+    margin-left: 15%;
+    margin-right: 15%;
+    border: solid;
+    padding: 5px; 
     
 }
 .subtitulo{
-    color: gray;
+    color:black;
     background-color: #FFF;
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: inherit;
-    margin-bottom: 10px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
- /*Inicio de sesion y crear cuenta*/
- nav.inicio ul.opcion{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-}
-
-.inicio{
-    width: 100%;
-    text-align: left;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
+ 
 
 
-ul.opcion li a{
-    color: black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-ul.opcion li a:hover:hover{
-    color: blue;
-    text-decoration: underline;
-}
-
-
-
+/*caja de imagenes*/
 .banner{
     display:block;
     flex-direction: row-reverse;
@@ -120,6 +165,8 @@ ul.opcion li a:hover:hover{
     border-style: solid;
     padding: 10px;
     margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
     
    
 }
@@ -225,6 +272,9 @@ section article a.bannerOferta img{
     body{
         background-color: blanchedalmond;
     }
+    .encabezado{
+        display: flex;
+    }
     .titulo{
         font-size: 2rem;
     }
@@ -236,6 +286,9 @@ section article a.bannerOferta img{
  @media (min-width: 992px) { 
     body{
         background-color: gray;
+    }
+    .encabezado{
+        display: flex;
     }
     .titulo{
         font-family: Arial, Helvetica, sans-serif;

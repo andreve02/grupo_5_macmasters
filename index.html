@@ -14,53 +14,49 @@
     </script>
 </head>
 <body>
-        <header>
-           
-            <div class="encabezado">
-                <nav>
-                    <div class="menu">
-                        <nav class="menu">
-                            <select class="menu"  onchange="menu(value)">
-                                <option value="/celulares" > <a href="/celulares">IPHONE</a></option>
-                                <option value="#"> <a href="#">IPAD</a></option>
-                                <option value="#"> <li><a href="#">MAC</a></li></option>
-                                <option value="#"> <li><a href="#">APPLE WATCH</a></li></option>
-                                <option value="#"> <li><a href="#">AIRPODS</a></li></option>
-                                <option value="#"> <li><a href="#">AIRTAG</a></li></option>
-                                <option value="#"> <li><a href="#">APPLE TV</a></li></option>
-                                <option value="#"> <li><a href="#">ACCESORIOS</a></li></option>
-                            </select>
-                        </nav>
-                    </div> 
-                </nav>
-                <div class="logo"> 
-                    <img src="./img/logoDeMacMasters.jpg" alt="Logo de MacMasters">
-                    <div class="form" action="#" method="GET">
-                        <div class="input">Productos</div>
-                        <div class="submit">Buscar<i class="fa fa-search"></i></div>
-                        <div class="carritoCompras">
-                        <a class="carritoCompras" href="carritoCompras.html"><img src="./img/carritoDeCompras.png"> </a> 
-                        </div>
-                    </div>
-                    <p><i class="fa-regular fa-credit-card"></i>Compra con nosotros:<b> Pagos Voluntarios, Sin fichas, Ni Tarjeta de Creditos</b> </p>
-               </div>
-            </div>
-            
-        </header>
-        <nav class="inicio">
-            <ul class="opcion">
-                <li>
-                    <a href="#">Iniciar Sesión</a>
-                </li>
-                <li>
-                    <a href="#">Crear Cuenta</a>
-                </li>
-              
-            </ul>
-        </nav>
+    <header class="encabezado">
         
-            <h1 class="titulo">MacMasters</h1>
-            <h3 class="subtitulo">Tu Destino Apple</h3>
+        <nav class="menu">
+            <select class="menu"  onchange="menu(value)">
+                <option value="/celulares" > <a href="/celulares">IPHONE</a></option>
+                <option value="#"> <a href="#">IPAD</a></option>
+                <option value="#"> <li><a href="#">MAC</a></li></option>
+                <option value="#"> <li><a href="#">APPLE WATCH</a></li></option>
+                <option value="#"> <li><a href="#">AIRPODS</a></li></option>
+                <option value="#"> <li><a href="#">AIRTAG</a></li></option>
+                <option value="#"> <li><a href="#">APPLE TV</a></li></option>
+                <option value="#"> <li><a href="#">ACCESORIOS</a></li></option>
+            </select>
+        </nav>
+                
+        <div class="logo"> 
+            <img src="./img/logoDeMacMasters.jpg" alt="Logo de MacMasters">
+        </div>
+        <div class="form" action="#" method="GET">
+            <div class="input">Productos</div>
+            <div class="submit">Buscar<i class="fa fa-search"></i></div>
+        </div>
+        <div class="carritoCompras">
+            <a class="carritoCompras" href="carritoCompras.html"><img src="./img/carritoDeCompras.png"> </a> 
+        </div>     
+        
+    </header>
+    <div class="textoVoluntario">
+        <p class="textoPago"><i class="fa-regular fa-credit-card"></i>Compra con nosotros:<b> Pagos Voluntarios, Sin fichas, Ni Tarjeta de Creditos</b> </p>            
+    </div> 
+    <nav>
+        <ul class="inicioSesion">
+            <li><a href="./register.html">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+            <li><a href="./login.html">Inicio de Sesion <i class="fas fa-sign-in-alt"></i></a></li>
+        </ul>
+        <ul class="misCompras">
+            <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+        </ul>
+    </nav>    
+    <section class="titulo">  
+        <iframe width="730" height="215" src="./video/videosDelLogo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3 class="subtitulo">Tu Destino Apple</h3>
+    </section>    
  <main>
      <section class="banner">
             <section class="caja1">
@@ -78,7 +74,7 @@
                     <i class="fas fa-truck"></i>
                     <h2 class="parrafoCelular" >Iphone 11</h2>
                     <p class="precioCelular"><b class="precioResaltado">Precio:</b> $549.95</p>
-                    <button class="comprarCelular"><a href="carritoCompras.html"> <b>Comprar</b> </a></button>
+                    <button class="comprarCelular"><a href="productDetail.html"> <b>Ver Mas</b> </a></button>
                 </article>
             
             
@@ -88,7 +84,7 @@
                     <i class="fas fa-truck"></i>
                     <h2 class="parrafoCelular" >Iphone 15 Pro Max</h2>
                     <p class="precioCelular"><b class="precioResaltado">Precio:</b> $1599.00</p>
-                    <button class="comprarCelular"><a href="carritoCompras.html"> <b>Comprar</b> </a></button>
+                    <button class="comprarCelular"><a href="productDetail.html"> <b>Ver Mas</b> </a></button>
                 </article>
         
             
@@ -98,7 +94,7 @@
                     <i class="fas fa-truck"></i>
                     <h2 class="parrafoCelular" >Adaptador MacBook Air</h2>
                     <p class="precioCelular"><b class="precioResaltado">Precio:</b> $98.46</p>
-                    <button class="comprarCelular"><a href="carritoCompras.html"> <b>Comprar</b> </a></button>
+                    <button class="comprarCelular"><a href="productDetail.html"> <b>Ver Mas</b> </a></button>
                 </article>
 
             
@@ -108,7 +104,7 @@
                     <i class="fas fa-truck"></i>
                     <h2 class="parrafoCelular" >Apple Tv 2da Generacion</h2>
                     <p class="precioCelular"><b class="precioResaltado">Precio:</b> $216.95</p>
-                    <button class="comprarCelular"><a href="carritoCompras.html"> <b>Comprar</b> </a></button>
+                    <button class="comprarCelular"><a href="productDetail.html"> <b>Ver Mas</b> </a></button>
                 </article>
             
 
@@ -119,12 +115,12 @@
                     <i class="fas fa-truck"></i>
                     <h2 class="parrafoCelular" >MacBook Pro 13¨</h2>
                     <p class="precioCelular"><b class="precioResaltado">Precio:</b> $1559.96</p>
-                    <button class="comprarCelular"><a href="carritoCompras.html"> <b>Comprar</b> </a></button>
+                    <button class="comprarCelular"><a href="productDetail.html"> <b>Ver Mas</b> </a></button>
                 </article>
             </section>
         </section>
 
-        <section class="caja2">
+        <section class="banner2">
             <section class="caja2">
                 <article class="productosOferta">
                     <h3 class="appleVideo"><b>Video de Apple</b>/h3>
