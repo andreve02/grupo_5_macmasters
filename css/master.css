@@ -187,7 +187,7 @@ nav{
 
     
 }
-.producto1{
+.productos1{
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -199,7 +199,7 @@ nav{
     margin-bottom: 10px;
    
 }
-.productosOferta{
+section article.productosOferta{
     text-align:center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
@@ -212,6 +212,11 @@ main section article h2.parrafoCelular{
     color: blue;
     font-size: 20px;
 
+}
+main section article h3.ofertaCelular{
+    color: blue;
+    font-size: 20px;  
+    text-align: center;  
 }
 main section article button.comprarCelular:hover{
         color: rgb(8, 8, 73);
@@ -254,6 +259,85 @@ section article a.bannerOferta img{
     height: 100px;
     
 }
+.banner2{
+    display:block;
+    flex-direction: row-reverse;
+   background-color: #0044AA;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+   
+}
+.caja2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: min-content;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+  
+   
+   
+
+    
+}
+.productos2{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    margin-bottom: 10px;
+   
+}
+
+.caja3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: min-content;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+  
+   
+   
+
+    
+}
+.productos3{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    margin-bottom: 10px;
+   
+}
+.productos2{
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .productos3{
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
 .pieDePagina{
     background-color: white;
     padding: 10px;
@@ -270,7 +354,7 @@ section article a.bannerOferta img{
 
 @media (min-width: 768px) { 
     body{
-        background-color: blanchedalmond;
+        background-color: gray;
     }
     .encabezado{
         display: flex;
