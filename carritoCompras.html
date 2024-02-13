@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Aquí va el codigo de Carrito de compras</h1>
-</body>
+    <link
+      rel="stylesheet"
+      href="./css/carritodeCompras.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Vision</li>
+          <li>AirPods</li>
+          <li>
+            <img
+              src="./img/carritoDeCompras.png"
+              alt="carrito de compra"
+              id="carritoIcon" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Carrito de compras</h1>
+      <ul class="productos-container">
+        <li class="producto">
+          <div>
+            <img
+              src="./img/iPhone/IPHONE11(64GB)-499.95.jpg"
+              alt="iphone" />
+            <span
+              >iPhone 11 <br />
+              <span class="precio">750.99</span></span
+            >
+          </div>
+          <button>Eliminar</button>
+        </li>
+        <li class="producto"><div>
+            <img
+              src="./img/Mac/MacBookPro-13pulg-1559.96.webp"
+              alt="MAC" />
+            <span
+              >MacBook Pro 13 pulg. <br />
+              <span class="precio">1250.99</span></span
+            >
+          </div><button>Eliminar</button></li>
+        <li class="producto"><div>
+            <img
+              src="./img/iPad/ipadPro-11pul-959.96.webp"
+              alt="iPad" />
+            <span
+              >iPad Pro 11pulg.<br />
+              <span class="precio">799.99</span></span
+            >
+          </div> <button>Eliminar</button></li>
+      </ul>
+      <button id="comprar">Comprar</button>
+    </main>
+  </body>
 </html>

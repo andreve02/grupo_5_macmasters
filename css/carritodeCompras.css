@@ -1,0 +1,128 @@
+/* Carrito de compra */
+header {
+    width: 100%;
+    height: auto;
+    /* background: red; */
+  
+    nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+  
+        height: 100%;
+        width: 40%;
+        padding: 0 20px;
+  
+        li {
+          margin: 15px 0;
+          list-style: none;
+          font-size: 0.8em;
+          font-weight: 600;
+          color: gray;
+          cursor: pointer;
+          transition: 0.3s;
+          &:hover {
+            color: #18bfec;
+          }
+        }
+      }
+    }
+  
+    #carritoIcon {
+      width: 20px;
+    }
+  }
+  
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+ 
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.productos-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        padding: 0;
+    margin: 0;
+    width: 100%;
+}
+li {
+    padding: 10px;
+    width: 60%;
+    border-bottom: 1px solid #ccc;
+}
+.producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        display: flex;
+        align-items: center;
+        img{
+            width: 100px;
+            height: 100px;
+        
+        }
+        .precio{
+            font-style: italic;
+            font-weight: bold;
+            margin-top: 10px;
+        };
+    }
+
+
+
+
+}
+button {
+    background-color: #18bfec;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #005499;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#comprar{
+    margin: 20px 0;
+}

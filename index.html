@@ -9,258 +9,163 @@
     <link
       rel="stylesheet"
       href="css/master.css" />
-    <script>
-      function menu(value) {
-        if (value) {
-          window.location.href = value;
-        }
-      }
-    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   </head>
   <body>
-    <header class="encabezado">
-      <nav class="menu">
-        <select
-          class="menu"
-          onchange="menu(this.value)">
-          <option value="/celulares">IPHONE</option>
-          <option value="#">IPAD</option>
-          <option value="#">MAC</option>
-          <option value="#">APPLE WATCH</option>
-          <option value="#">AIRPODS</option>
-          <option value="#">AIRTAG</option>
-          <option value="#">APPLE TV</option>
-          <option value="#">ACCESORIOS</option>
-        </select>
+    <header>
+      <nav>
+        <ul>
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPad</li>
+          <li>iPhone</li>
+          <li>Watch</li>
+          <li>Vision</li>
+          <li>AirPods</li>
+          <li>
+            <img
+              src="./img/carritoDeCompras.png"
+              alt="carrito de compra"
+              id="carritoIcon" />
+          </li>
+        </ul>
       </nav>
-
-      <div class="logo">
-        <img
-          src="./img/logoDeMacMasters.jpg"
-          alt="Logo de MacMasters" />
-      </div>
-      <div
-        class="form"
-        action="#"
-        method="GET">
-        <div class="input">Productos</div>
-        <div class="submit">Buscar<i class="fa fa-search"></i></div>
-      </div>
-      <div class="carritoCompras">
-        <a
-          class="carritoCompras"
-          href="carritoCompras.html"
-          ><img src="./img/carritoDeCompras.png" />
-        </a>
-      </div>
     </header>
-    <div class="textoVoluntario">
-      <p class="textoPago">
-        <i class="fa-regular fa-credit-card"></i>Compra con nosotros:<b>
-          Pagos Voluntarios, Sin fichas, Ni Tarjeta de Creditos</b
-        >
-      </p>
-    </div>
-    <nav>
-      <ul class="inicioSesion">
-        <li>
-          <a href="./register.html"
-            >Creá tu cuenta <i class="far fa-id-card"></i
-          ></a>
-        </li>
-        <li>
-          <a href="./login.html"
-            >Inicio de Sesion <i class="fas fa-sign-in-alt"></i
-          ></a>
-        </li>
-      </ul>
-      <ul class="misCompras">
-        <li>
-          <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a>
-        </li>
-      </ul>
-    </nav>
-    <section class="titulo">
-      <iframe
-        width="730"
-        height="215"
-        src="./video/videosDelLogo.mp4"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-      <h3 class="subtitulo">Tu Destino Apple</h3>
-    </section>
     <main>
-      <section class="banner">
-        <section class="caja1">
-          <article class="bannerPromocion">
-            <div class="bannerOferta">
-              <a
-                class="bannerOferta"
-                href="carritoCompras.html"
-                ><img
-                  src="./img/bannerOferta.jpg"
-                  alt="Banner de promocion"
-              /></a>
-            </div>
-            <div class="bannerTitulo">
-              <p>
-                Artículos en promoción Valido del 15 de Enero al 30 de Marzo
-              </p>
-            </div>
-          </article>
-        </section>
-        <section class="productos1">
-          <article class="productosOferta">
-            <h3 class="ofertaCelular"><b>Oferta de Descuento:</b> 15% OFF</h3>
+      <section class="section-propaganda">
+        <div class="login-registro">
+          <div>
+            <span>Inicia sesion</span>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div>
+            <span>Crea una cuenta</span>
+            <i class="fa-solid fa-user-plus"></i>
+          </div>
+        </div>
+        <div class="propagandas">
+          <span>propaganda</span>
+          <span>propaganda</span>
+        </div>
+      </section>
+
+      <section class="titulo-y-lema">
+        <img
+        id="logoDeMacMasters"
+          src="./img/logoDeMacMasters.jpg"
+          alt="" />
+      </section>
+
+      <section class="promocion">
+        <ul>
+            <li id="flecha-izquierda"><</li>
+          <li class="producto-oferta">
+            <img
+              src="./img/iPad/ipadPro-11pul-959.96.webp"
+              alt="ipadPro-11pul-959" />
+          </li>
+          <li class="producto-oferta">
+            <img
+              src="./img/iPhone/IPHONE15(256GB)-1199.00.jpg"
+              alt="iPhone" />
+          </li>
+          <li class="producto-oferta">
+            <img
+              src="./img/iPhone/IPHONE12(128GB)-699.00.jpg"
+              alt="iPhone" />
+          </li>
+          <li class="producto-oferta">
+            <img
+              src="./img/iPhone/IPHONE15PROMAX(512GB)-1869.00.jpg"
+              alt="iPhone" />
+          </li>
+          <li class="producto-oferta">
             <img
               src="./img/iPhone/IPHONE11(128GB)-549.95.jpg"
-              alt="Foto de Iphone 11" />
-            <i class="fas fa-truck"></i>
-            <h2 class="parrafoCelular">Iphone 11</h2>
-            <p class="precioCelular">
-              <b class="precioResaltado">Precio:</b> $549.95
-            </p>
-            <button class="comprarCelular">
-              <a href="productDetail.html"> <b>Ver Mas</b> </a>
-            </button>
-          </article>
-
-          <article class="productosOferta">
-            <h3 class="ofertaCelular"><b>Oferta de Descuento:</b> 10% OFF</h3>
-            <img
-              src="./img/iPhone/IPHONE15PROMAX(256GB)-1599.00.jpg"
-              alt="Foto de Iphone 15 Pro Max" />
-            <i class="fas fa-truck"></i>
-            <h2 class="parrafoCelular">Iphone 15 Pro Max</h2>
-            <p class="precioCelular">
-              <b class="precioResaltado">Precio:</b> $1599.00
-            </p>
-            <button class="comprarCelular">
-              <a href="productDetail.html"> <b>Ver Mas</b> </a>
-            </button>
-          </article>
-
-          <article class="productosOferta">
-            <h3 class="ofertaCelular"><b>Oferta de Descuento:</b> 25% OFF</h3>
-            <img
-              src="./img/Accesorio para Apple/Adaptador45Voltio-macbookAir-98.46.webp"
-              alt="Adaptador MacbookAir" />
-            <i class="fas fa-truck"></i>
-            <h2 class="parrafoCelular">Adaptador MacBook Air</h2>
-            <p class="precioCelular">
-              <b class="precioResaltado">Precio:</b> $98.46
-            </p>
-            <button class="comprarCelular">
-              <a href="productDetail.html"> <b>Ver Mas</b> </a>
-            </button>
-          </article>
-
-          <article class="productosOferta">
-            <h3 class="ofertaCelular"><b>Oferta de Descuento:</b> 10% OFF</h3>
-            <img
-              src="./img/TV/AppleTv-2daGeneración-216.95.webp"
-              alt="Apple Tv" />
-            <i class="fas fa-truck"></i>
-            <h2 class="parrafoCelular">Apple Tv 2da Generacion</h2>
-            <p class="precioCelular">
-              <b class="precioResaltado">Precio:</b> $216.95
-            </p>
-            <button class="comprarCelular">
-              <a href="productDetail.html"> <b>Ver Mas</b> </a>
-            </button>
-          </article>
-
-          <article class="productosOferta">
-            <h3 class="ofertaCelular"><b>Oferta de Descuento:</b> 05% OFF</h3>
+              alt="iphone" />
+          </li>
+          <li class="producto-oferta">
             <img
               src="./img/Mac/MacBookPro-13pulg-1559.96.webp"
-              alt="MaxBook" />
-            <i class="fas fa-truck"></i>
-            <h2 class="parrafoCelular">MacBook Pro 13¨</h2>
-            <p class="precioCelular">
-              <b class="precioResaltado">Precio:</b> $1559.96
-            </p>
-            <button class="comprarCelular">
-              <a href="productDetail.html"> <b>Ver Mas</b> </a>
-            </button>
-          </article>
-        </section>
+              alt="" />
+          </li>
+          <li id="flecha-derecha">></li>
+        </ul>
+        <h3>Articulos en promocion</h3>
       </section>
-      <section class="sesion">
-        <section class="googleSesion">
-          <div class="imagenSesion">
-            <img src="img/Iniciar-sesi-n--en-Gmail-con-otra-cuenta.jpg" />
+
+      <section class="section-productos">
+        <div class="video-container">
+        <video src="./video/videoplayback.mp4" muted autoplay loop></video>
+        </div>
+        <div class="productos-container">
+          <h4 class="titulo">productos</h4>
+          <div class="productos">
+            <div class="producto">
+              <span><h4>iPhones</h4> <img src="./img/iPhone/IPHONE11(128GB)-549.95.jpg" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>iPads</h4> <img src="./img/iPad/iPadPro-6taGeneracion-1369.96.webp" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>Apple Watch</h4> <img src="./img/watch.png" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>Macs</h4> <img src="./img/Mac/MacBookPro-16pulg-2499.95.webp" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>AirPods</h4> <img src="./img/airdpods.webp" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>AirTag</h4> <img src="./img/airtag.webp" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>TV</h4> <img src="./img/TV/AppleTv-2daGeneración-216.95.webp" alt=""></span><span class="btn">Ver más</span>
+            </div>
+            <div class="producto">
+              <span><h4>Accesorios</h4> <img src="./img/cables.jpeg" alt=""></span><span class="btn">Ver más</span>
+            </div>
           </div>
-        </section>
+        </div>
       </section>
-      <section class="banner2">
-        <section class="caja2">
-          <article class="productos2">
-            <iframe
-              width="560"
-              height="315"
-              src="./video/videoplayback.mp4"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-            <i class="fas fa-truck"></i>
-            <button class="comprarCelular">
-              <a href="https://www.youtube.com/watch?v=aJ8lLdo6x_8">
-                <b>Ver Mas</b>
-              </a>
-            </button>
-          </article>
-          <article class="productos2">
-            <img
-              src="img/Apple-Shop-with-a-Specialist-hero_big.jpg.large.jpg" />
-            <img
-              src="./img/Apple-Shop-with-a-Specialist-iPhone-14-buy-flow_big.jpg.large.jpg" />
-          </article>
-        </section>
-        <section class="caja3">
-          <article class="productos3">
-            <h3 class="ofertaCelular"><b>Oferta de Descuento:</b> 1% OFF</h3>
-            <img
-              src="./img/Mac/MacBookPro-16pulg-2499.95.webp"
-              alt="Foto de Iphone 15 Pro Max" />
-            <i class="fas fa-truck"></i>
-            <h2 class="parrafoCelular">MacBook Pro</h2>
-            <p class="precioCelular">
-              <b class="precioResaltado">Precio:</b> $2499.95.00
-            </p>
-            <button class="comprarCelular">
-              <a href="productDetail.html"> <b>Ver Mas</b> </a>
-            </button>
-          </article>
-        </section>
+      <section class="te-ayudamos">
+        <h3>Contacta con nuestro equipo de soporte tecnico 
+        </h3>
+   <div class="servicios-ayuda">
+    <div>
+        <h3>Soporte tecnico</h3>
+        <span class="btn-contacto">Contacto</span>
+      </div>
+      <div>
+        <h3>Acerca de Software</h3>
+        <span class="btn-contacto">Contacto</span>
+      </div>
+      <div>
+        <h3>Garantia</h3>
+        <span class="btn-contacto">Contacto</span>
+      </div>
+
+   </div>
+     
       </section>
     </main>
-    <footer class="pieDePagina">
-      <div class="caja1">
-        <div class="logo">
-          <img
-            src="./img/logoDeMacMasters.jpg"
-            width="190px"
-            height="200px"
-            alt="Logo de MacMasters" />
-        </div>
-        <section class="Politica">
-          <p class="sobreNosotros">
-            <a href="politicaDePrivacidad.html"><b>Sobre Nosotros</b></a>
-          </p>
-          <p class="politicaDePrivacidad">
-            <a
-              href="politicaDePrivacidad.html"
-              target="_blank"
-              ><b>Politica de Privacidad</b></a
-            >
-          </p>
-        </section>
+
+    <footer>
+      <ul>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-x-twitter"></i></li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+      </ul>
+
+      <div>
+        <h3>Terminos y condiciones</h3>
       </div>
+      <div>
+        <h3>Sobre nosotros</h3>
+      </div>
+      <div><h3>Politica de privacidad</h3></div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/f6963029ac.js"
-      crossorigin="anonymous"></script>
   </body>
 </html>
