@@ -96,21 +96,17 @@ main {
 
   .titulo-y-lema {
     width: 100%;
-    height: 450px;
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-    margin: 20px 0;
-    #logoDeMacMasters {
-      width: 100%;
-      max-height: 100%;
-      object-fit: fill;
-      position: absolute;
-
-      left: 0;
-      top: 0;
-    }
+    height: 100%;
+    margin-top: 20px;
+    video{
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
   }
+ }
 
   .promocion{
     width: 100%;
@@ -147,7 +143,7 @@ main {
            
         }
         #flecha-derecha{
-   
+            
             font-size: 3em;
             list-style: none;
             position: absolute;
@@ -280,6 +276,9 @@ main {
         border-radius: 20px;
         width: 100%;
         height: 100%;
+        transition: 0.3s ease-in-out;
+                &:hover{
+                    box-shadow: 0 0 40px 10px blue; }
          }
 }
 
@@ -351,4 +350,37 @@ footer {
     font-size: 16px;
     margin-bottom: 10px;
   }
+
+  /*Politica de Privacidad*/
+  h1.politicaDePrivacidad{
+    text-align: center;
+    background-color: aqua;
+
+  }
   
+  @media (min-width: 768px) { 
+    body{
+        background-color: rgb(202, 202, 202);
+        display: inline-block;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    
+}
+ 
+ 
+ @media (min-width: 992px) { 
+    body{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    .titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4rem;
+    }
+    .productos{
+        display: inline-block;
+    }
+ }
