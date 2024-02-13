@@ -374,7 +374,6 @@ footer {
         background-color: white;
         display: flex;
         flex-direction: column;
-        max-width: max-content;
     }
     .titulo{
         font-family: Arial, Helvetica, sans-serif;
